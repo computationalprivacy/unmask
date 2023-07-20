@@ -1,7 +1,7 @@
 # Concerns about using a digital mask to safeguard patient privacy
 
-In this repo, we provide the code used in the paper "Concerns about using a Digital Mask to safeguard patient privacy". 
-The paper can be found here: XXX. 
+In this repo, we provide the code used in the paper ["Concerns about using a Digital Mask to safeguard patient privacy"](https://www.nature.com/articles/s41591-023-02439-9) 
+as published in Nature Medicine in July 2023. 
 
 Specifcally, we reproduce the setup used by [Yang et al.](https://www.nature.com/articles/s41591-022-01966-1) used to evaluate the privacy preservation of the proposed 
 Digital Mask as closely as possible. For this we need three steps:

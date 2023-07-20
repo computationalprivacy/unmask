@@ -1,0 +1,23 @@
+SETUP_DICT = {
+    'Face2Face': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep.pickle',
+                  'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep.pickle'
+                  },
+    'Overlay2Face': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_overlay.pickle',
+                     'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep.pickle',
+                  },
+    'Overlay2Overlay': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_overlay.pickle',
+                     'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep_overlay.pickle',
+                     },
+    'MaskOnly2Face': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only.pickle',
+                     'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep.pickle',
+                     },
+    'MaskOnly2MaskOnly': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only.pickle',
+                     'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only.pickle',
+                     },
+    'MaskOnlyBlack2Face': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only_black.pickle',
+                      'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only_black.pickle',
+                      },
+    'MaskOnlyBlack2MaskOnlyBlack': {'QUERY_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only_black.pickle',
+                          'DATABASE_EMBEDDING_DICT': 'img_path2embedding_prep_mask_only_black.pickle',
+                          },
+}
